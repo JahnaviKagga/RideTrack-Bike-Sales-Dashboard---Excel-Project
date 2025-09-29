@@ -32,7 +32,7 @@ The solution: a consolidated **Excel dashboard** to replace slow, manual reports
 - Reusable template for other retail datasets.  
 
 ## 📂 File
-- `RideTrack_Bike_Sales_Dashboard.xlsx` → contains cleaned dataset + final dashboard.
+- `RideTrack: Bike Sales Dashboard - Excel Project` → contains cleaned dataset + final dashboard.
 
 ## 🔮 Future Work
 - Automate refresh with **Power Query**.  
