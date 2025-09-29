@@ -1,72 +1,40 @@
 # 🚴 RideTrack – Bike Sales Dashboard (Excel)
 
 ## 📌 Project Overview
-The RideTrack Bike Sales Dashboard is an Excel-based interactive tool designed to help the company analyze customer demographics and purchasing patterns. It leverages **pivot tables, slicers, and charts** to provide insights into income, commute behavior, and age-related sales trends.
-
----
+This project contains a complete Excel workbook for **RideTrack Bike Sales Analysis**.  
+It includes **data cleaning, pivot tables, and an interactive dashboard** to analyze customer demographics and purchasing behavior.
 
 ## 🎯 Problem Statement
-RideTrack, a bike retail company, was collecting large amounts of sales and customer demographic data but lacked a **consolidated, interactive system** to derive actionable insights.  
-The leadership team needed to answer questions such as:  
+RideTrack, a bike retail company, needed a way to understand **who buys their bikes and why**.  
+Key business questions included:
 - Do higher-income customers purchase more bikes?  
-- How does commute distance influence purchasing behavior?  
-- Which age groups are driving the most sales?  
+- How does commute distance affect bike purchases?  
+- Which age groups contribute most to sales?  
 
-However, manual reporting was slow, non-visual, and not scalable.  
-👉 A dynamic Excel dashboard was required to **analyze sales patterns, improve decision-making, and identify growth opportunities**.  
+The solution: a consolidated **Excel dashboard** to replace slow, manual reports and provide instant insights.
 
----
-
-## 📊 Dataset
-- **Source**: Bike shop sales records (cleaned in Excel).  
-- **Key Columns**: Customer demographics (Age, Income, Commute Distance), Purchase data.  
-
----
-
-## 🔍 Analysis Performed
-1. **Average Income per Purchase** – identifies spending capacity of bike buyers.  
-2. **Customer Commute** – analyzes commute distance to predict demand for bike types.  
-3. **Customer Age Brackets** – groups customers into segments to see which age groups buy most.  
-
----
-
-## 📈 Dashboard Features
-- Interactive **pivot tables & slicers** for filtering.  
-- Dynamic charts to compare demographics.  
-- Clean layout for **executive-level decision making**.  
-
----
+## 📊 Features
+- Built-in **data cleaning** (inside Excel).  
+- **Pivot tables** and **slicers** for interactivity.  
+- Dashboard sections:
+  - **Average Income per Purchase**  
+  - **Customer Commute**  
+  - **Customer Age Brackets**  
 
 ## 💡 Key Insights
 - Higher income brackets are more likely to purchase premium bikes.  
-- Mid-range commute distances showed the highest purchase rate.  
-- Age group 30–40 contributed the largest share of sales.  
-
----
+- Customers with mid-range commutes purchase the most.  
+- Age group **30–40** contributes the largest share of sales.  
 
 ## 🚀 Innovation
-Unlike static Excel reports, this dashboard is:
-- **Dynamic & interactive** → powered by slicers.  
-- **Business-ready** → managers can filter by age, commute, or income instantly.  
-- **Reusable template** → can be adapted for other retail datasets.  
+- Entire workflow (data cleaning → analysis → dashboard) within a **single Excel file**.  
+- Easy-to-use interface for managers with no technical background.  
+- Reusable template for other retail datasets.  
 
----
-
-## 📷 Screenshots
-*(Add dashboard screenshots here in `docs/screenshots/`)*  
-
----
-
-## 📂 Files in Repo
-- `data/bikeshop_sales.xlsx` → sample cleaned dataset.  
-- `dashboard/RideTrack_Dashboard.xlsx` → final Excel dashboard.  
-- `docs/screenshots/` → visuals of the dashboard.  
-
----
+## 📂 File
+- `RideTrack_Bike_Sales_Dashboard.xlsx` → contains cleaned dataset + final dashboard.
 
 ## 🔮 Future Work
-- Automate the data refresh with Power Query.  
-- Extend to **Power BI / Tableau** for richer interactivity.  
-- Add **trend analysis** for future sales forecasting.  
-
----
+- Automate refresh with **Power Query**.  
+- Extend analysis to **Power BI or Tableau**.  
+- Add **forecasting models** for sales prediction.  
